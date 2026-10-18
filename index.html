@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#050811"><meta name="robots" content="noindex,nofollow">
+<meta name="description" content="SD LAB diseña sitios de presencia y catálogos digitales para negocios y profesionales.">
+<title>SD LAB — Diseño y desarrollo de sitios web</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Ir al contenido</a>
+<div class="prototype">VISTA PREVIA V3.1 <span>·</span> ENTORNO DE PRUEBA</div>
+<header class="header" id="top">
+  <nav class="nav" aria-label="Navegación principal">
+    <a href="#top" class="brand" aria-label="SD LAB — inicio">SD <span class="brand-divider"></span> LAB</a>
+    <div class="nav-links" id="nav-links">
+      <a href="#trabajos">Proyectos</a>
+      <a href="#servicios">Servicios</a>
+      <a class="mobile-only" href="#contacto">Contacto</a>
+    </div>
+    <a class="nav-cta" href="#contacto">Hablemos de tu web <span aria-hidden="true">↗</span></a>
+    <button type="button" id="menu" class="menu" aria-controls="nav-links" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span></button>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <canvas id="universe" aria-hidden="true"></canvas>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-head">
+      <p class="hero-kicker"><span class="status-dot"></span> Diseño y desarrollo web · Buenos Aires</p>
+      <h1 id="hero-title"><span class="reveal"><span>Tu negocio.</span></span><span class="reveal"><span>Otra <em>dimensión.</em></span></span></h1>
+      <p class="hero-description">Creamos sitios que presentan mejor tu trabajo y hacen más fácil que tus clientes te encuentren y contacten.</p>
+      <div class="hero-actions">
+        <a class="primary-button" href="#trabajos">Ver proyectos <span aria-hidden="true">↓</span></a>
+        <a class="text-button" href="#servicios">Conocer los servicios <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="art-orbit art-orbit--one"></div><div class="art-orbit art-orbit--two"></div>
+      <div class="art-console">
+        <div class="art-console-top"><span class="art-dots"><i></i><i></i><i></i></span><span>SD LAB / ESTUDIO DIGITAL</span><span>● EN LÍNEA</span></div>
+        <div class="art-console-body">
+          <div class="art-wordmark">SD<span>●</span>LAB</div>
+          <div class="art-console-copy"><span>DISEÑO · DESARROLLO · RESULTADOS</span><strong>Tu presencia,<br>más profesional.</strong><div class="art-stripes"><b></b><b></b><b></b></div></div>
+          <div class="art-graph"><span>ESTRUCTURA + DISEÑO</span><div class="art-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        </div>
+      </div>
+      <div class="art-tag art-tag--left"><span>01 / PRESENCIA</span><strong>Encontrable.<br>Confiable.</strong></div>
+      <div class="art-tag art-tag--right"><span>02 / CATÁLOGO</span><strong>Productos claros.<br>Pedidos simples.</strong></div>
+    </div>
+  </section>
+  <section class="projects" id="trabajos" aria-labelledby="projects-title">
+    <div class="projects-head">
+      <span class="eyebrow">TRABAJOS Y DEMOSTRACIONES</span>
+      <h2 id="projects-title">Explorá lo que <em>podemos construir.</em></h2>
+      <p>Seleccioná un proyecto en el carrusel y abrí su sitio o demostración desde la vista central.</p>
+    </div>
+    <div class="hero-stage" aria-label="Proyectos de SD LAB">
+      <div class="stage-glow" aria-hidden="true"></div>
+      <button type="button" class="stage-preview stage-preview--prev" id="preview-prev" aria-label="Ver proyecto anterior">
+        <img id="preview-prev-image" src="assets/mostrador-portfolio.webp" alt="" width="1440" height="900">
+        <span id="preview-prev-name">Mostrador <small>DEMOSTRACIÓN</small></span>
+      </button>
+      <div class="stage-main">
+        <div class="hero-browser">
+          <div class="browser-top"><span class="traffic" aria-hidden="true"><i></i><i></i><i></i></span><span id="browser-address">HUELLITAS / WEB PRESENCIA</span><span aria-hidden="true">↗</span></div>
+          <a id="browser-link" href="https://veterinaria-huellitas-e6w.pages.dev/#inicio" target="_blank" rel="noopener noreferrer" aria-label="Abrir el proyecto Huellitas">
+            <img id="browser-image" src="assets/huellitas-portfolio.webp" alt="Captura de la web Veterinaria Huellitas" width="1348" height="926" fetchpriority="high">
+            <span class="browser-open">Explorar el sitio <span aria-hidden="true">↗</span></span>
+          </a>
+        </div>
+      </div>
+      <button type="button" class="stage-preview stage-preview--next" id="preview-next" aria-label="Ver proyecto siguiente">
+        <img id="preview-next-image" src="assets/fuego-lento-portfolio.webp" alt="" width="1280" height="800">
+        <span id="preview-next-name">Fuego Lento <small>DEMOSTRACIÓN</small></span>
+      </button>
+    </div>
+    <div class="stage-toolbar">
+      <div class="stage-project" aria-live="polite"><span id="project-status">SITIO PUBLICADO</span><strong id="project-caption">Veterinaria Huellitas</strong></div>
+      <div class="orbit-controller" aria-label="Navegación de proyectos">
+        <button type="button" id="orbit-prev" aria-label="Proyecto anterior">←</button>
+        <span class="page-index" aria-live="polite"><strong id="current-number">01</strong><span>/ 05</span></span>
+        <button type="button" id="orbit-next" aria-label="Siguiente proyecto">→</button>
+        <span class="control-separator" aria-hidden="true"></span>
+        <button type="button" id="orbit-pause" aria-pressed="false" aria-label="Pausar reproducción automática">Ⅱ</button>
+      </div>
+      <span class="stage-hint">5 proyectos · 1 explorador</span>
+    </div>
+  </section>
+  <section class="services" id="servicios" aria-labelledby="services-title">
+    <div class="section-head">
+      <span class="eyebrow">LO QUE HACEMOS</span>
+      <div class="section-head-main"><h2 id="services-title">Tu web, con lo que<br><em>realmente necesitás.</em></h2><p>Elegí qué querés mostrar. Nosotros nos ocupamos del diseño, el desarrollo y la puesta en línea.</p></div>
+    </div>
+    <div class="plans">
+      <article class="plan">
+        <a class="plan-visual plan-visual--presencia" href="https://veterinaria-huellitas-e6w.pages.dev/#inicio" target="_blank" rel="noopener noreferrer" aria-label="Ver el sitio publicado Veterinaria Huellitas">
+          <span class="plan-visual-kicker">VISTA ILUSTRATIVA · WEB PRESENCIA</span>
+          <div class="plan-screen plan-screen--service"><div class="plan-screen-top"><span aria-hidden="true">● ● ●</span> Sitio de servicios</div><div class="service-demo service-demo--presence"><span class="service-logo">TU MARCA <b>↗</b></span><div class="service-panel"><small>BIENVENIDOS</small><strong>Tu trabajo habla<br>por vos.</strong><span>Servicios · Sobre nosotros · Contacto</span><i>Contactar →</i></div><div class="service-accent"></div></div></div>
+          <span class="plan-visual-bottom">VER EJEMPLO PUBLICADO <span aria-hidden="true">↗</span></span>
+        </a>
+        <div class="plan-body">
+          <div class="plan-top"><span>01 / PARA SERVICIOS</span><span>Presencia profesional</span></div>
+          <h3>Web Presencia</h3>
+          <p class="plan-description">Que tus clientes sepan qué hacés, cómo trabajás y cómo encontrarte, sin tener que explicarlo todo por mensaje.</p>
+          <div class="plan-price"><small>Desarrollo · pago único</small><strong>AR$ 80.000</strong></div>
+          <ul class="plan-list">
+            <li>Hasta 4 secciones y 6 servicios</li>
+            <li>Información, ubicación y canales de contacto</li>
+            <li>Panel para editar contenido rutinario</li>
+            <li>Diseño adaptado a celulares</li>
+          </ul>
+          <a class="plan-cta" href="#contacto" data-plan="presencia">Quiero una web como esta <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+      <article class="plan">
+        <a class="plan-visual plan-visual--catalogo" href="https://sdlab.com.ar/demos/mostrador/" target="_blank" rel="noopener noreferrer" aria-label="Probar la demo de catálogo Mostrador">
+          <span class="plan-visual-kicker">VISTA ILUSTRATIVA · CATÁLOGO</span>
+          <div class="plan-screen plan-screen--service"><div class="plan-screen-top"><span aria-hidden="true">● ● ●</span> Catálogo interactivo</div><div class="service-demo service-demo--catalog"><div class="demo-catalog-head"><strong>CATÁLOGO</strong><span>Productos · Pedido</span></div><div class="demo-catalog-items"><div><span class="product-dot"></span><strong>Producto A</strong><small>Ver detalle →</small></div><div><span class="product-dot"></span><strong>Producto B</strong><small>Ver detalle →</small></div><div><span class="product-dot"></span><strong>Producto C</strong><small>Ver detalle →</small></div></div><div class="demo-catalog-bottom">Armá tu pedido <b>→</b></div></div></div>
+          <span class="plan-visual-bottom">ABRIR DEMO INTERACTIVA <span aria-hidden="true">↗</span></span>
+        </a>
+        <div class="plan-body">
+          <div class="plan-top"><span>02 / PARA PRODUCTOS</span><span>Ventas por WhatsApp</span></div>
+          <h3>Catálogo / Carta</h3>
+          <p class="plan-description">Mostrá lo que ofrecés y dejá que cada persona prepare su consulta o pedido sin perderse en un chat.</p>
+          <div class="plan-price"><small>Desarrollo · pago único</small><strong>AR$ 80.000</strong></div>
+          <ul class="plan-list">
+            <li>Hasta 30 ítems en 5 categorías</li>
+            <li>Resumen del pedido para WhatsApp</li>
+            <li>Panel para actualizar productos o precios</li>
+            <li>Sin cobro automático ni comisión de SD LAB</li>
+          </ul>
+          <a class="plan-cta" href="#contacto" data-plan="catalogo">Quiero mi catálogo <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    </div>
+    <div class="conditions">
+      <p><strong>Cómo se abona:</strong> 50% para iniciar y 50% al aprobar y publicar. Dominio y costos externos por separado.</p>
+      <p><strong>Después de publicar:</strong> 7 días de soporte correctivo inicial. Mantenimiento opcional: AR$ 50.000 por mes.</p>
+    </div>
+  </section>
+  <section class="contact" id="contacto" aria-labelledby="contact-title">
+    <div class="contact-layout">
+      <div class="contact-intro">
+        <span class="eyebrow">CONTACTO DIRECTO</span>
+        <h2 id="contact-title">Contanos<br><em>tu idea.</em></h2>
+        <p>Decinos qué hace tu negocio. Te ayudamos a encontrar la solución que corresponde, sin compromiso de contratación.</p>
+        <a href="mailto:contacto@sdlab.com.ar" class="email-direct">contacto@sdlab.com.ar ↗</a>
+      </div>
+      <div class="contact-panel">
+        <fieldset><legend>¿Qué necesitás?</legend>
+          <label><input type="radio" name="project" value="presencia"><span>Presentar mis servicios</span></label>
+          <label><input type="radio" name="project" value="catalogo"><span>Mostrar productos o una carta</span></label>
+          <label><input type="radio" name="project" value="orientacion" checked><span>Necesito orientación</span></label>
+        </fieldset>
+        <label class="field" for="contact-name">Tu nombre o negocio <small>(opcional)</small></label>
+        <input type="text" id="contact-name" autocomplete="name" maxlength="90" placeholder="¿Cómo te llamás?">
+        <label class="field" for="contact-details">Contanos brevemente <small>(opcional)</small></label>
+        <textarea id="contact-details" maxlength="500" rows="3" placeholder="¿Qué te gustaría mostrar en tu web?"></textarea>
+        <a id="contact-wa" class="contact-submit" href="https://wa.me/5491126174410?text=Hola%20SD%20LAB" target="_blank" rel="noopener noreferrer">Preparar consulta por WhatsApp <span aria-hidden="true">↗</span></a>
+        <a id="contact-email" class="contact-alt" href="mailto:contacto@sdlab.com.ar">O consultar por correo <span aria-hidden="true">↗</span></a>
+        <p class="privacy-note">Podés revisar el mensaje antes de enviarlo. No guardamos los datos ingresados en esta página.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div><strong>SD LAB</strong><p>Diseño y desarrollo web · Buenos Aires</p></div>
+  <nav aria-label="Enlaces de pie de página"><a href="#top">Volver arriba ↑</a><a href="https://sdlab.com.ar/webs/" target="_blank" rel="noopener noreferrer">Ver web actual ↗</a><a href="https://sdlab.com.ar/privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad ↗</a></nav>
+  <div class="footer-end"><span>© SD LAB · 2026</span><span>Prototipo V3.1 · Sitio comercial intacto</span></div>
+</footer>
+</body>
+</html>
